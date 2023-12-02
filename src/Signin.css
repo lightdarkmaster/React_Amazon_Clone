@@ -1,0 +1,144 @@
+.signin{
+    overflow: hidden;
+    position: relative;
+    height: 160px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 1px 1px grey;
+    background: white;
+}
+
+.signin__inner{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: .5px solid rgba(0, 0, 0, 0.459);
+    border-radius: 6px;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.signin__button{
+    cursor: pointer;
+}
+.signin__button:hover{
+    background: #ffc32bc0;
+}
+
+.see{
+    font-size: 12px;
+    font-weight: 500;
+}
+button{
+    width: 200px;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    height: 28px;
+    border: 0;
+    border-radius: 5px;
+    background: #FFC22B;
+    font-weight: 800;
+    font-size: 12px;
+    border: 1px solid #FFC22B;
+}
+.newc{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.newc > a{
+    text-decoration: none;
+    font-style: italic;
+}
+
+.backtotop{
+    width: 100%;
+    height: 50px;
+    background: #37475A;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    border: 0;
+    border-radius: 0;
+}
+.backtotop:hover{
+    background: #485769;
+}
+
+.footer1{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 340px;
+    background: #222E3E;
+    color :white;
+    text-align: center;
+    justify-content: center;
+}
+.footer1__row {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+    gap: 10em;
+}
+.footer1__column{
+    position: relative;
+    top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    gap: 10px;
+    text-align: left;
+    cursor: pointer;
+}
+.footer__head{
+    font-weight: 700;
+    font-size: 15px;
+}
+.footer__sub{
+    font-size: 12px;
+}
+.footer1__sub{
+    position: relative;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    border-top: 1px solid rgb(116, 116, 116);
+    background: #222E3E;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    padding-top: 30px;
+    color: white;
+    gap: 20px;
+    cursor: pointer;
+}
+.footer__sub1{
+    height: 25px;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 2px;
+    text-align: center;
+    justify-content: center;
+}
+.footer__sub1:hover{
+    border: 1px solid rgb(208, 208, 208);
+}
+.footer__logo{
+    border: 0;
+}
+.footer__logo > img{
+    max-height: 30px;
+    max-width: 100px;
+}

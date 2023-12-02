@@ -1,0 +1,82 @@
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+    max-height: 400px;
+    min-width: 100px;
+    background-color: white;
+    z-index: 1;
+    box-shadow: 1px 1px 3px 1px rgba(128, 128, 128, 0.47);
+}
+.product__rating{
+    display: flex;
+}
+
+.oneproduct{
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+}
+.product-4{
+    display: flex;
+    flex-direction: column; /* Arrange children vertically */
+    width: 100%; /* Adjust the width as needed */
+    justify-content: space-evenly;
+}
+.picture-row{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10%;
+    text-align: center;
+}
+.boxProduct{
+    width: 70px; /* Adjust the width of each picture as needed */
+    height: 70px; /* Adjust the height of each picture as needed */
+    object-fit: cover;
+    border-radius: 5px;
+}
+.product > img{
+    max-height: 200px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.product__price{
+    margin-top: 5px;
+    cursor: pointer;
+
+}
+.product__info{
+    height: 100px;
+    margin-bottom: 15px;
+    cursor: pointer;
+
+}
+.product > button{
+    background-color: #f0c14b;
+    border: 1 px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+    cursor: pointer;
+}
+.boxProduct{
+    width: 70px; /* Adjust the width of each picture as needed */
+    height: 70px; /* Adjust the height of each picture as needed */
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.monitor{
+    width: 786px;
+    height: 587px;
+}
+.link{
+    text-decoration: none;
+    color: orange;
+}

@@ -1,0 +1,40 @@
+.navbar{
+    position: relative;
+    height: 35px;;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #185951;
+    top: 0;
+    z-index: 1;
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+.navbar > span{
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+.navbar > span:hover{
+    border: 1px solid white;
+}
+.ham{
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.All{
+    margin-right: 3px;
+    margin-left: 3px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.free{ 
+    position: relative;
+    left: 38%;
+    font-weight: 700;
+    text-align: right;
+    justify-content: right;
+}
