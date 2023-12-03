@@ -5,15 +5,27 @@ import Header from './Header';
 import Home from './Home';
 import Navbar from './Navbar';
 import Signin from './Signin';
+import Checkout from './Checkout';
 
 function App() {
   return (
     <Router>
       <div className="app">
-         <Header />
-         <Navbar />
-         <Home />
-         <Signin />
+         <Switch>
+
+           <Route path="/checkout">
+             <Header />
+             <Checkout />
+           </Route>
+
+           <Route path="/">
+            <Header />
+             <Navbar />
+             <Home />
+             <Signin />
+           </Route>
+
+         </Switch>
       </div>
     </Router>
   );

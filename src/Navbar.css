@@ -1,7 +1,7 @@
 .navbar{
     position: relative;
     height: 35px;;
-    width: 100%;
+    max-width: 1500px;
     display: flex;
     align-items: center;
     background-color: #185951;
@@ -10,6 +10,7 @@
     color: white;
     margin: auto;
     text-align: center;
+    overflow: hidden;
 }
 .navbar > span{
     justify-content: space-evenly;
@@ -33,7 +34,8 @@
 }
 .free{ 
     position: relative;
-    left: 38%;
+    overflow: hidden;
+    left: 28%;
     font-weight: 700;
     text-align: right;
     justify-content: right;
