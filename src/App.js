@@ -11,16 +11,15 @@ function App() {
   return (
     <Router>
       <div className="app">
+      <Header />
+      <Navbar />
          <Switch>
 
-           <Route path="/checkout">
-             <Header />
+           <Route path="/checkout" component={Checkout} >
              <Checkout />
            </Route>
 
            <Route path="/">
-            <Header />
-             <Navbar />
              <Home />
              <Signin />
            </Route>
@@ -30,5 +29,6 @@ function App() {
     </Router>
   );
 }
-
 export default App;
+
+//default route should be in the bottom

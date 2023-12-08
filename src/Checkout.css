@@ -1,0 +1,93 @@
+.checkout{
+    position: relative;
+    display: flex;
+    margin: 10px;
+}
+.checkout__left {
+    background: white;
+    width: 80%;
+    height: 400px;
+    overflow: hidden;
+    margin: 10px;
+
+}
+.checkout__left > h2{
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.checkout__left >span{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    left: 95%;
+    color: rgb(109, 109, 109);
+}
+.checkout__left > hr{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.add__div {
+    background: black;
+    width: 80%;
+    height: 400px;
+    overflow: hidden;
+    margin: 10px;
+}
+.checkout__right {
+    width:  20%;
+    margin: 10px;
+}
+.item__total {
+    background: white;
+    position: relative;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+    overflow: hidden;
+}
+.item__total >p{
+    font-size: 20px;
+}
+.proceed_btn{
+    background: #FFD814;
+    position: relative;
+    top: 30%;
+    width: 80%;
+    font-weight: 500;
+}
+.proceed_btn:hover{
+    background: #F7CA00;
+}
+.item__suggestions {
+    position: relative;
+    background: white;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10px;
+}
+.item__suggestions >h3{
+    padding: 10px;
+}
+.pro_sug{
+    display: flex;
+}
+.product__name {
+    color: steelblue;
+}
+.price{
+    color: red;
+}
+.add_btn{
+    width: 100px;
+    border-radius: 40px;
+    font-weight: 500;
+    background: #FFD814;
+}
+.add_btn:hover{
+    background: #F7CA00;
+}
