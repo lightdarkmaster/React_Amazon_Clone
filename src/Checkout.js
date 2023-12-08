@@ -1,6 +1,5 @@
 import React from "react";
 import "./Checkout.css";
-import { CheckBoxOutlineBlankOutlined } from "@mui/icons-material";
 
 function Checkout() {
   return (

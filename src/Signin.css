@@ -27,6 +27,7 @@
 
 .signin__button{
     cursor: pointer;
+    font-weight: 500;
 }
 .signin__button:hover{
     background: #ffc32bc0;

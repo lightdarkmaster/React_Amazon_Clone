@@ -8,7 +8,7 @@ function Signin() {
         <div className="signin__inner">
             <span className="see">See personalize recommendations</span>
             <button className="signin__button">Sign in</button>
-            <span className="newc">New customer? <a href="http://www.facebook.com">Start here.</a></span>
+            <span className="newc">New customer? <a href="https://github.com/lightdarkmaster">Start here.</a></span>
         </div>
     </div>
     <button className="backtotop">
