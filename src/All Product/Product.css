@@ -64,6 +64,10 @@
     border-color: #a88734 #9c7e31 #846a29;
     color: #111;
     cursor: pointer;
+    font-weight: 500;
+}
+.product >button:hover{
+    background-color: #ffba0a;
 }
 .boxProduct{
     width: 70px; /* Adjust the width of each picture as needed */
