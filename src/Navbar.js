@@ -1,6 +1,6 @@
-import React from 'react';
-import './Navbar.css';
-import MenuIcon from '@mui/icons-material/Menu';
+import React from "react";
+import "./Navbar.css";
+import MenuIcon from "@mui/icons-material/Menu";
 
 function Navbar() {
   return (
@@ -14,12 +14,8 @@ function Navbar() {
       <span className="todeal">Sell</span>
 
       <span className="free">Get Free Shipping to the Philippines</span>
-
-
-
-
     </div>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;
