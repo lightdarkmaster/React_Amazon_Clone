@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from "react";
-import "./Home.css";
-import Product from "./All Product/Product1/Product";
-import Product2 from "./All Product/Product2/Product";
-import Product3 from "./All Product/Product3/Product";
-import Product4 from "./All Product/Product4/Product";
-import Product5 from "./All Product/Product5/Product";
-import Product6 from "./All Product/Product6/Product";
-import Product7 from "./All Product/Product7/Product";
-import Product8 from "./All Product/Product8/Product";
-import Product9 from "./All Product/Product9/Product";
+import "../css/Home.css";
+import Product from "../All Product/Product1/Product";
+import Product2 from "../All Product/Product2/Product";
+import Product3 from "../All Product/Product3/Product";
+import Product4 from "../All Product/Product4/Product";
+import Product5 from "../All Product/Product5/Product";
+import Product6 from "../All Product/Product6/Product";
+import Product7 from "../All Product/Product7/Product";
+import Product8 from "../All Product/Product8/Product";
+import Product9 from "../All Product/Product9/Product";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 

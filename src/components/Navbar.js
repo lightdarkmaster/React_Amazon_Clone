@@ -1,5 +1,5 @@
 import React from "react";
-import "./Navbar.css";
+import "../css/Navbar.css";
 import MenuIcon from "@mui/icons-material/Menu";
 
 function Navbar() {

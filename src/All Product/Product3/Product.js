@@ -1,6 +1,5 @@
 import React from 'react';
-import '../Product.css';
-
+import '../../css/Product.css';
 function Product3() {
   return (
 

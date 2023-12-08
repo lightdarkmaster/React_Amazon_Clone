@@ -1,5 +1,5 @@
 import React from "react";
-import "./Login.css";
+import "../css/Login.css";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 function Login() {
