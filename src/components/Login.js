@@ -37,7 +37,7 @@ function Login() {
         <br />
         <span className="login__span">Need help?</span>
         <hr />
-        <span>
+        <span className="buy__for">
           <strong>Buying for work?</strong>
         </span>
         <br />
@@ -50,3 +50,4 @@ function Login() {
 }
 
 export default Login;
+//login component

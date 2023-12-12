@@ -41,14 +41,14 @@
     display: flex;
     flex: 1;
     align-items: center;
-    border-radius: 24px;
+    border-radius: 10px;
     width: 100%;
 }
 .header__searchInput{
     position: relative;
     height: 23px !important;
     padding: 10px;
-    border: none;
+    border: 0;
     width: 100%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
