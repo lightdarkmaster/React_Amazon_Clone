@@ -11,7 +11,7 @@ function Checkout() {
         <div className="product__checkout">
           <div className="product__image">
             <img
-              src="https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71YsO5v5PuL._AC_AA180_.jpg"
+              src="https://m.media-amazon.com/images/I/71D83K5x8iL._AC_UL480_FMwebp_QL65_.jpg"
               alt=""
             />
           </div>
@@ -60,7 +60,7 @@ function Checkout() {
           <h3>New international customers purchased</h3>
           <div className="pro_sug">
             <img
-              src="https://images-na.ssl-images-amazon.com/images/W/MEDIAX_792452-T1/images/I/71yvkPOVPoL._AC_UL100_SR100,100_.jpg"
+              src="https://m.media-amazon.com/images/I/61HQnejZ8jL._AC_UL480_FMwebp_QL65_.jpg"
               alt="product1"
             />
             <span className="product__name">
@@ -76,7 +76,7 @@ function Checkout() {
 
           <div className="pro_sug">
             <img
-              src="https://images-na.ssl-images-amazon.com/images/W/MEDIAX_792452-T1/images/I/71yvkPOVPoL._AC_UL100_SR100,100_.jpg"
+              src="https://m.media-amazon.com/images/I/61HQnejZ8jL._AC_UL480_FMwebp_QL65_.jpg"
               alt="product1"
             />
             <span className="product__name">
@@ -92,7 +92,7 @@ function Checkout() {
 
           <div className="pro_sug">
             <img
-              src="https://images-na.ssl-images-amazon.com/images/W/MEDIAX_792452-T1/images/I/71yvkPOVPoL._AC_UL100_SR100,100_.jpg"
+              src="https://m.media-amazon.com/images/I/61HQnejZ8jL._AC_UL480_FMwebp_QL65_.jpg"
               alt="product1"
             />
             <span className="product__name">
