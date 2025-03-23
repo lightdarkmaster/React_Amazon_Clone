@@ -30,7 +30,7 @@ function Home() {
   };
 
   useEffect(() => {
-    const intervalId = setInterval(nextImage, 3000); // Change 3000 to the desired interval in milliseconds
+    const intervalId = setInterval(nextImage, 3000); //Change in every 3 seconds
 
     return () => clearInterval(intervalId); // Cleanup the interval on component unmount
     // eslint-disable-next-line react-hooks/exhaustive-deps
